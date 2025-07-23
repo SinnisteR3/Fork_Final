@@ -1,0 +1,48 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Logistics</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="https://use.typekit.net/xxxxxxx.css">
+    
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AI Smart Logistics</h1>
+            <p>Smarter Deliveries with Artificial Intelligence</p>
+            <a href="/route" class="btn">About Us</a>
+        </header>
+
+        <section class="features">
+            <a href="/route" class="card">
+                <div class="icon">📍</div>
+                <h3>Route Optimizer</h3>
+                <p>Find the shortest and fastest delivery routes</p>
+            </a>
+            <a href="/damage" class="card">
+                <div class="icon">🛠️</div>
+                <h3>Damage Detection</h3>
+                <p>Detect visible vehicle damage from uploaded images</p>
+            </a>
+            <a href="/behavior" class="card">
+                <div class="icon">🚗</div>
+                <h3>Driving Behavior</h3>
+                <p>Visualize driving patterns and safety events</p>
+            </a>
+            <a href="/eta" class="card">
+                <div class="icon">⏱️</div>
+                <h3>Delivery Time Predictor</h3>
+                <p>Forecast delivery time using machine learning</p>
+            </a>
+        </section>
+
+        <footer>
+            <p>By: Dominique Luces, Isaiah Lising, Manuel Baltasar, Niño Abela</p>
+        </footer>
+    </div>
+</body>
+</html>
